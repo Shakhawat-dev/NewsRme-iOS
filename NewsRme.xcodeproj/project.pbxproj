@@ -16,6 +16,7 @@
 		E22AABBF258FD8A5000B4127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22AAB94258FD8A5000B4127 /* Assets.xcassets */; };
 		E22AABC0258FD8A5000B4127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22AAB94258FD8A5000B4127 /* Assets.xcassets */; };
 		E22AABE5258FDCE3000B4127 /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AABE4258FDCE3000B4127 /* PostRowView.swift */; };
+		E25BE6422592774700857750 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25BE6412592774700857750 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E22AABB8258FD8A5000B4127 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E22AABBA258FD8A5000B4127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22AABE4258FDCE3000B4127 /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		E25BE6412592774700857750 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				E22AABE4258FDCE3000B4127 /* PostRowView.swift */,
+				E25BE6412592774700857750 /* LoginView.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			files = (
 				E22AABE5258FDCE3000B4127 /* PostRowView.swift in Sources */,
 				E22AABBD258FD8A5000B4127 /* ContentView.swift in Sources */,
+				E25BE6422592774700857750 /* LoginView.swift in Sources */,
 				E22AABBB258FD8A5000B4127 /* NewsRmeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

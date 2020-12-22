@@ -11,7 +11,8 @@ import SwiftUI
 struct NewsRmeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            LoginView(email: .constant(""), password: .constant(""))
         }
     }
 }
